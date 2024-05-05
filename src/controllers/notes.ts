@@ -111,7 +111,7 @@ export const deleteNote: RequestHandler<noteParams, unknown, noteBody, unknown> 
     
   
 
-     await note.();
+     
 
     res.sendStatus(204);
     } catch (error) {
